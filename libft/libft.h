@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/11 18:09:30 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/01 16:45:34 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/01 21:14:33 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,13 +68,13 @@ void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
-int	ft_printf(char const *print, ...);
-int	ft_puthex(unsigned int n, int flag);
-int	ft_putmem(void *mem);
-int	ft_puthexmem(uintptr_t n, int flag);
-int	ft_putchar(char c, int fd);
-int	ft_putnbr(int n, int fd);
-int	ft_putnbr_unsigned(unsigned int n);
-int	ft_putstr(char *s, int fd);
+int		ft_printf(char const *print, ...);
+int		ft_puthex(unsigned int n, int flag);
+int		ft_putmem(void *mem);
+int		ft_puthexmem(uintptr_t n, int flag);
+int		ft_putchar(char c, int fd);
+int		ft_putnbr(int n, int fd);
+int		ft_putnbr_unsigned(unsigned int n);
+int		ft_putstr(char *s, int fd);
 
 #endif

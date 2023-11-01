@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 14:00:30 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/01 20:58:37 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/01 21:17:59 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	send_binary(char c, int pid)
 {
 	int		i;
 	char	bit;
-	
+
 	i = 7;
 	while (i >= 0)
 	{
@@ -32,10 +32,10 @@ void	send_binary(char c, int pid)
 
 int	main(int argc, char **argv)
 {
-	int	pid;
-	char *str;
-	int i;
-	
+	int		pid;
+	char	*str;
+	int		i;
+
 	if (argc != 3)
 	{
 		ft_printf("Error: Invalid arguments\n");
