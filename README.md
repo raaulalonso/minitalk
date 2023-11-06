@@ -44,3 +44,5 @@ Replace [PID] with the process id that the server will print when executed. Also
 The server should print the string correctly and considerably fast.
 
 ## Screenshots
+
+![Demo GIF](https://github.com/Apeslx/minitalk/blob/main/screenshots/ScreenRecording.gif)
