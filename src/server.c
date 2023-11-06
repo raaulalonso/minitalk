@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 14:00:25 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/01 21:17:02 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/02 12:24:50 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,8 +43,11 @@ int	main(void)
 	signal(SIGUSR1, handler);
 	signal(SIGUSR2, handler);
 	pid = getpid();
-	ft_printf("PID ---->>> | %d |\n", pid);
-	ft_printf("--Print Area------------------------------------\n\n");
+	ft_printf("   ________  ______   _____  _____\n");
+	ft_printf("  / ___/ _ \\/ ___/ | / / _ \\/ ___/\n");
+	ft_printf(" (__  )  __/ /   | |/ /  __/ /    \n");
+	ft_printf("/____/\\___/_/    |___/\\___/_/      PID ---> | %d |\n", pid);
+	ft_printf("\n--Print Area-----------------------------------------\n\n");
 	while (1)
 	{
 		pause();
