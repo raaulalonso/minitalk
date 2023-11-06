@@ -1,5 +1,11 @@
 # minitalk
 
+ [![Intro](https://img.shields.io/badge/Cursus-Minitalk-success?style=for-the-badge&logo=42)](https://github.com/Apeslx/minitalk)
+ 
+ [![Stars](https://img.shields.io/github/stars/Apeslx/minitalk?color=ffff00&label=Stars&logo=Stars&style=?style=flat)](https://github.com/Apeslx/minitalk)
+ [![Size](https://img.shields.io/github/repo-size/Apeslx/minitalk?color=blue&label=Size&logo=Size&style=?style=flat)](https://github.com/Apeslx/minitalk)
+ [![Activity](https://img.shields.io/github/last-commit/Apeslx/minitalk?color=red&label=Last%20Commit&style=flat)](https://github.com/Apeslx/minitalk)
+ 
 In this proyect, there are two programs, client and server. The client sends strings (transformed to binary) to the server via signals and the server then prints them. Client and server only comunicate via UNIX signals.
 
 ## Getting Started
