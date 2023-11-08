@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/20 21:07:07 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/07 01:02:09 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:47:25 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,9 +89,3 @@ char	*ft_itoa(int n)
 	numtostr(str, num, nlen, minus);
 	return (str);
 }
-
-/*int main(void)
-{
-	printf("%s", ft_itoa(-65867));
-	return 0;
-}*/

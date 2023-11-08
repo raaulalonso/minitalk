@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 22:19:53 by raalonso          #+#    #+#             */
-/*   Updated: 2023/03/13 19:46:08 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:48:20 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,17 +40,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	}
 	return (i);
 }
-
-/*#include <stdio.h>
-#include <string.h>
-int main(void)
-{
-    int num;
-    char str1[] = "hola soy ";
-    char str2[] = "raul";
-    
-    num = ft_strlcat(str1, str2, 15);
-    printf("%s\n", str1);
-    printf("%d", num);
-    return 0;
-}*/

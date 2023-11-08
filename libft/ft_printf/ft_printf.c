@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 23:36:19 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/01 16:44:40 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:49:14 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,3 @@ int	ft_printf(char const *print, ...)
 	va_end(param);
 	return (i + count);
 }
-
-/*int main(void)
-{
-	ft_printf("%c%c", '1', '3');
-	return 0;
-}*/

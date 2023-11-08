@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 14:00:30 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/02 12:37:24 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:54:29 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,15 @@ void	send_binary(char c, int pid)
 	}
 }
 
+void	check_pid(int pid)
+{
+	if (kill(pid, 0) != 0)
+	{
+		ft_printf("Error: Invalid PID\n");
+		exit(1);
+	}
+}
+
 int	main(int argc, char **argv)
 {
 	int		pid;
@@ -42,11 +51,7 @@ int	main(int argc, char **argv)
 		return (0);
 	}
 	pid = ft_atoi(argv[1]);
-	if (kill(pid, 0) != 0)
-	{
-		ft_printf("Error: Invalid PID\n");
-		return (0);
-	}
+	check_pid(pid);
 	str = ft_strdup(argv[2]);
 	if (!str)
 		return (0);
@@ -57,4 +62,5 @@ int	main(int argc, char **argv)
 		i++;
 	}
 	free(str);
+	return (0);
 }

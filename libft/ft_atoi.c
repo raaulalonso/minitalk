@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 20:43:04 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/01 14:53:55 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:46:21 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,12 +49,3 @@ int	ft_atoi(const char *str)
 		return (num * -1);
 	return (num);
 }
-
-/*#include <stdio.h>
-#include <stdlib.h>
-int main(void)
-{
-	char *str = "  \n  -1322";
-	printf("%d", ft_atoi(str));
-	return 0;
-}*/

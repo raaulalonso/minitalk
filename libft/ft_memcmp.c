@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 19:43:32 by raalonso          #+#    #+#             */
-/*   Updated: 2023/03/13 17:28:20 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:47:49 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*#include <string.h>
-#include <stdio.h>
-int main(void)
-{
-	char *str1 = "hola soy raul";
-	char *str2 = "hola uoy raul";
-	printf("%d", ft_memcmp(str1, str2, 14));
-	return 0;
-}*/

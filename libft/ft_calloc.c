@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 21:34:45 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/07 02:00:49 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:46:43 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_memset(mem, 0, count * size);
 	return (mem);
 }
-
-/*#include <stdlib.h>
-#include <stdio.h>
-int main(void)
-{
-	char *str;
-	printf("%s", (char *)ft_calloc(6, 1));
-	return 0;
-}*/

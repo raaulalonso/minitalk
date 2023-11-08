@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 23:35:41 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/12 20:52:23 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:48:49 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,9 +52,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (0);
 	return (str);
 }
-
-/*int main(void)
-{
-	printf("%s", ft_strtrim("hola", "hola"));
-	return 0;
-}*/

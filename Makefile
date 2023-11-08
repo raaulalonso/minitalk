@@ -1,6 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 LIBFLAGS = -L libft/ -lft
+LIBFT = libft/libft.a
 
 SRCS_SV = src/server.c
 SRCS_CL = src/client.c
@@ -26,7 +27,7 @@ sv_start:
 		echo "\033[45m\033[1;37m--------------------BUILDING SERVER--------------------\033[0m\033[1;93m\n"; \
 	fi
 
-server: $(OBJS_SV) lib
+server: $(LIBFT) $(OBJS_SV)
 	$(CC) $(CFLAGS) -o $(SV_NAME) $(OBJS_SV) $(LIBFLAGS)
 	@echo "\n\033[42m\033[1;37m--------------------------DONE-------------------------\033[0m\n"
 
@@ -35,7 +36,7 @@ cl_start:
 		echo "\033[45m\033[1;37m--------------------BUILDING CLIENT--------------------\033[0m\033[1;93m\n"; \
 	fi
 
-client: $(OBJS_CL) lib
+client: $(LIBFT) $(OBJS_CL)
 	$(CC) $(CFLAGS) -o $(CL_NAME) $(OBJS_CL) $(LIBFLAGS)
 	@echo "\n\033[42m\033[1;37m--------------------------DONE-------------------------\033[0m"
 

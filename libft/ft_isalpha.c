@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 20:13:51 by raalonso          #+#    #+#             */
-/*   Updated: 2023/03/08 20:13:53 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:47:02 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-
-/*#include <ctype.h>
-#include <stdio.h>
-int main(void)
-{
-    int num;
-    num = isalpha('b');
-    printf("%d\n", num);
-    return 0;
-}*/

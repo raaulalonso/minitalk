@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 20:13:19 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/07 01:25:19 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:47:54 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-/*#include <string.h>
-#include <stdio.h>
-int main(void)
-{
-	char str[] = "hola adios";
-	ft_memmove(str + 2, str + 1, 3);
-	printf("%s", str);
-	return 0;
-}*/

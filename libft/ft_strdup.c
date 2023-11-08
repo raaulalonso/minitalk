@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 16:25:19 by raalonso          #+#    #+#             */
-/*   Updated: 2023/03/13 20:05:58 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:48:12 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,12 +34,3 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
-
-/*#include <string.h>
-#include <stdio.h>
-int main(void)
-{
-	char *str = "hola soy raul";
-	printf("%s", ft_strdup(str));
-	return 0;
-}*/

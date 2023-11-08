@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 19:59:16 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/01 14:54:39 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:48:42 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-
-/*#include <stdio.h>
-#include <string.h>
-int main(void)
-{
-	char *str = "hola soy raul";
-	char *str2 = "soy";
-	printf("%s", ft_strnstr(str, str2, 14));
-	return 0;
-}*/

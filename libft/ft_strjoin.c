@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 22:03:51 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/12 22:19:12 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:49:41 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,10 +50,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
-
-/*#include <stdio.h>
-int main(void)
-{
-	printf("%s", ft_strjoin("hola", ""));
-	return 0;
-}*/

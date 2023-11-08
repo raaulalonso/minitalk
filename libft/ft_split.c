@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/14 18:52:44 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/07 01:04:39 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:48:06 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,20 +90,3 @@ char	**ft_split(char const *s, char c)
 	else
 		return (0);
 }
-
-/*#include <stdio.h>
-int main(void)
-{
-	int i;
-	char **str2;
-	
-	i = 0;
-	str2 = ft_split("ho a", ' ');
-	while (i < 2)
-	{
-		printf("%s", str2[i]);
-		printf("\n");
-		i++;
-	}
-	return 0;
-}*/

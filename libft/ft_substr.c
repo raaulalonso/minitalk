@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/13 21:22:16 by raalonso          #+#    #+#             */
-/*   Updated: 2023/04/12 22:11:25 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:49:45 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-
-/*#include <stdio.h>
-int main(void)
-{
-	printf("%s", ft_substr("FULL BULLSHIT", 400, 20));
-	return 0; 
-}*/

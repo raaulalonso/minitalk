@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 20:14:00 by raalonso          #+#    #+#             */
-/*   Updated: 2023/03/08 23:54:10 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:46:38 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,3 @@ void	ft_bzero(void *s, size_t n)
 		}
 	}
 }
-
-/*#include <strings.h>
-#include <stdio.h>
-int main(void)
-{
-	char str[] = "holaadios";
-	ft_bzero(&str, 4);
-	printf("%s", str);
-	return 0;
-}*/

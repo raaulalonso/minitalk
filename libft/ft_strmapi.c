@@ -6,7 +6,7 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/23 18:42:09 by raalonso          #+#    #+#             */
-/*   Updated: 2023/03/23 20:51:32 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/08 18:48:37 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-
-/*int main(void)
-{
-	printf("%s", ft_strmapi("hola", prueba));
-	return 0;
-}*/
