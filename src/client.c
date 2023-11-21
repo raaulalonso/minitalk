@@ -6,16 +6,22 @@
 /*   By: raalonso <raalonso@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 14:00:30 by raalonso          #+#    #+#             */
-/*   Updated: 2023/11/08 18:54:29 by raalonso         ###   ########.fr       */
+/*   Updated: 2023/11/21 08:30:10 by raalonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../incl/minitalk.h"
 
-void	send_binary(char c, int pid)
+/**
+ * @brief Sends a character in binary format to a process with a given PID.
+ * 
+ * @param c The character to be sent.
+ * @param pid The process ID of the receiving process.
+ */
+void send_binary(char c, int pid)
 {
-	int		i;
-	char	bit;
+	int i;
+	char bit;
 
 	i = 7;
 	while (i >= 0)
@@ -30,7 +36,12 @@ void	send_binary(char c, int pid)
 	}
 }
 
-void	check_pid(int pid)
+/**
+ * @brief Checks if a process with the given PID exists.
+ * 
+ * @param pid The process ID to be checked.
+ */
+void check_pid(int pid)
 {
 	if (kill(pid, 0) != 0)
 	{
@@ -39,11 +50,18 @@ void	check_pid(int pid)
 	}
 }
 
-int	main(int argc, char **argv)
+/**
+ * @brief The main function of the client program.
+ * 
+ * @param argc The number of command-line arguments.
+ * @param argv An array of strings containing the command-line arguments.
+ * @return int Returns 0 on successful execution.
+ */
+int main(int argc, char **argv)
 {
-	int		pid;
-	char	*str;
-	int		i;
+	int pid;
+	char *str;
+	int i;
 
 	if (argc != 3)
 	{
