@@ -27,7 +27,7 @@ Before you can start installing minitalk, make sure you have the following prere
    
    ```shell
    cd minitalk
-3. Compile the game using the provided Makefile:
+3. Compile the proyect using the provided Makefile:
 
    ```shell
    make
