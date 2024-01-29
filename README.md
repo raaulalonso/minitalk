@@ -1,10 +1,10 @@
 # minitalk
 
- [![Intro](https://img.shields.io/badge/Cursus-Minitalk-success?style=for-the-badge&logo=42)](https://github.com/Apeslx/minitalk)
+ [![Intro](https://img.shields.io/badge/Cursus-Minitalk-success?style=for-the-badge&logo=42)](https://github.com/raaulalonso/minitalk)
  
- [![Stars](https://img.shields.io/github/stars/Apeslx/minitalk?color=ffff00&label=Stars&logo=Stars&style=?style=flat)](https://github.com/Apeslx/minitalk)
- [![Size](https://img.shields.io/github/repo-size/Apeslx/minitalk?color=blue&label=Size&logo=Size&style=?style=flat)](https://github.com/Apeslx/minitalk)
- [![Activity](https://img.shields.io/github/last-commit/Apeslx/minitalk?color=red&label=Last%20Commit&style=flat)](https://github.com/Apeslx/minitalk)
+ [![Stars](https://img.shields.io/github/stars/raaulalonso/minitalk?color=ffff00&label=Stars&logo=Stars&style=?style=flat)](https://github.com/raaulalonso/minitalk)
+ [![Size](https://img.shields.io/github/repo-size/raaulalonso/minitalk?color=blue&label=Size&logo=Size&style=?style=flat)](https://github.com/raaulalonso/minitalk)
+ [![Activity](https://img.shields.io/github/last-commit/raaulalonso/minitalk?color=red&label=Last%20Commit&style=flat)](https://github.com/raaulalonso/minitalk)
  
 In this proyect, there are two programs, client and server. The client sends strings (transformed to binary) to the server via signals and the server then prints them. Client and server only comunicate via UNIX signals.
 
@@ -22,7 +22,7 @@ Before you can start installing minitalk, make sure you have the following prere
 1. Clone the minitalk repository to your local machine:
 
    ```shell
-   git clone https://github.com/Apeslx/minitalk.git minitalk
+   git clone https://github.com/raaulalonso/minitalk.git minitalk
 2. Change your current working directory to the project folder:
    
    ```shell
@@ -51,4 +51,4 @@ The server should print the string correctly and considerably fast.
 
 ## Screenshots
 
-![Demo GIF](https://github.com/Apeslx/minitalk/blob/main/screenshots/ScreenRecording.gif)
+![Demo GIF](https://github.com/raaulalonso/minitalk/blob/main/screenshots/ScreenRecording.gif)
